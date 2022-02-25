@@ -6,6 +6,7 @@ module.exports = {
     dir: 'dist', // 配置构建部署时输出的目录，默认dist目录
     publicUrl: '/', // 配置构建输出的资源根目录，默认是'/'
   },
+  themeFile: 'demos/theme.scss',
   // themeFile: 'demos/theme.scss', // 如果有自定义主题的话，配置自定义主题的文件名，支持SASS
   staticFolder: 'static', // 配置静态资源文件路径，默认为 static
   demoList: '.demoList.json', // demoList配置文件的文件名，默认为.demoList.json
@@ -13,7 +14,7 @@ module.exports = {
   version: 'v2',  // 配置Playground的版本号信息
   homePage: 'https://spritejs.org', // 配置Playground链接跳转的主页
   logo: '', // 配置Playground的LOGO，如果配置了LOGO，标题就不显示
-  boxTheme: 'merbivoreSoft',  // 配置代码编辑器的主题
+  boxTheme: 'tomorrow',  // 配置代码编辑器的主题
   // 可选主题: active4d, allHallowsEve, amy, blackboard, brillianceBlack,
   // brillianceDull, chromeDevtools, cloudsMidnight, clouds, cobalt,
   // dawn, dreamweaver, eiffel, espressoLibre, github, idle, katzenmilch,
