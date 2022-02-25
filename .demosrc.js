@@ -1,11 +1,14 @@
+const path = require("path")
+
 module.exports = {
   devServer: {
-    port: 3000, //配置开发服务器的端口号，默认值3000
+    port: 3030, //配置开发服务器的端口号，默认值3000
   },
   output: {
-    dir: 'dist', // 配置构建部署时输出的目录，默认dist目录
+    dir:  path.resolve(__dirname, '/site/build/demo'), // 配置构建部署时输出的目录，默认dist目录
     publicUrl: '/', // 配置构建输出的资源根目录，默认是'/'
   },
+  babel: 'true',
   themeFile: 'demos/theme.scss',
   // themeFile: 'demos/theme.scss', // 如果有自定义主题的话，配置自定义主题的文件名，支持SASS
   staticFolder: 'static', // 配置静态资源文件路径，默认为 static
