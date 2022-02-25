@@ -1,0 +1,28 @@
+[
+  {
+    "group": "framework",
+    "src": "framework",
+    "demos": [
+      {
+        "label": "Vue",
+        "src": "vue"
+      },
+      {
+        "label": "React",
+        "src": "react"
+      }
+    ]
+  },
+  {
+    "label": "demo1",
+    "src": "demo1"
+  },
+  {
+    "label": "rawdata",
+    "src": "rawdata"
+  },
+  {
+    "label": "ts",
+    "src": "ts"
+  }
+]

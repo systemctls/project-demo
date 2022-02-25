@@ -1,0 +1,21 @@
+$c-gap: #dadfbe;
+$c-bg: white;
+$c-console-bg: white;
+$c-console-bg-odd: #fff;
+$c-font: #3f3e3c;
+$c-font-contrast:rgb(231, 224, 224);
+$c-font-menuitem: rgba($c-font, 0.6);
+$c-highlight: #492908;
+
+.sidebar-menuItem.router-link-active {
+  color: $c-font;
+}
+.console-message--error {
+  background-color: #fff;
+}
+.console-message {
+  border-bottom: 1px solid #f0f0f0;
+}
+.editor-tab--active {
+  border-bottom: 2px solid #3574ec;
+}
