@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
 import DemoGround from '../components/demoground';
+import Banner  from '../components/banner';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -32,8 +33,10 @@ export default function Home() {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      <Banner />
       <main>
+      {/* <Banner></Banner> */}
+
         <HomepageFeatures />
         <DemoGround demoId="preview/demo"></DemoGround>
 

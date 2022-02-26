@@ -1,27 +1,34 @@
-// config.js
-
-const javascript = `console.log('this is a demo')`;
-
-
 import * as Babel from '@babel/standalone';
-import style from './style.css'
+
 export default async () => {
-  const [cssCode] = await Promise.all([
+  const [htmlCode, jsCode, cssCode] = await Promise.all([
+    import('!raw-loader!./index.html'),
+    import('!raw-loader!./script.js'),
     import('!raw-loader!./style.css'),
   ]);
 
   return {
-    javascript,
+    javascript: {
+      code: jsCode,
+      transformer: 'javascript',
+      visible: true,
+    },
+
+    html: {
+      code: htmlCode,
+      transformer: 'html',
+      visible: true,
+    },
     css: {
       code: cssCode,
       transformer: 'css',
     },
+    foldBoxes: ['html'],
     packages: {
       js: [
-
+       
       ],
-      css: [style],
+      css: [],
     }
-
   }
 }
