@@ -9,9 +9,9 @@ export default class extends Component {
       margin: '10px 0',
     };
     let source = `//doodle.webgl.group/demo/#/${this.props.demoId}`;
-    if(window.location.hostname === '127.0.0.1' || 'localhost') {
-      source = `//localhost:3030/#/${this.props.demoId}`;
-    }
+    // if(window.location.hostname === '127.0.0.1' || 'localhost') {
+    //   source = `//localhost:3030/#/${this.props.demoId}`;
+    // }
     return (
       <iframe src={source}
         scrolling="yes"

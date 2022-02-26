@@ -15,7 +15,6 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
-
   presets: [
     [
       'classic',
@@ -64,10 +63,9 @@ const config = {
                 label: 'Facebook',
                 href: 'https://www.facebook.com',
               },
-              // ... more items
             ],
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
 
         ],
       },
@@ -129,7 +127,7 @@ const config = {
         contextualSearch: true,
 
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: 'external\\.com|domain\\.com',
+        // externalUrlRegex: 'external\\.com|domain\\.com',
 
         // Optional: Algolia search parameters
         searchParameters: {},
@@ -141,34 +139,34 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    customFields: {
-      bannerList: [{
-        title: 'fish',
-        description:'fish 公司框架',
-        icon:'',
-        background: '#364D79',
-        link:''
-      },{
-        title: 'React',
-        description:'fish 公司框架',
-        background: '#64CBCC',
-        icon:'',
-        link:''
-      },{
-        title: 'Vue',
-        description:'fish 公司框架',
-        background: '#3b818c',
-        icon:'',
-        link:''
-      },{
-        title: 'JQuery',
-        description:'fish 公司框架',
-        background: '#f8b37f',
-        icon:'',
-        link:''
-      }],
-      superman: 'lol',
-    },
+  customFields: {
+    bannerList: [{
+      title: 'fish',
+      description: 'fish 公司框架',
+      icon: '',
+      background: '#364D79',
+      link: ''
+    }, {
+      title: 'React',
+      description: 'fish 公司框架',
+      background: '#64CBCC',
+      icon: '',
+      link: ''
+    }, {
+      title: 'Vue',
+      description: 'fish 公司框架',
+      background: '#3b818c',
+      icon: '',
+      link: ''
+    }, {
+      title: 'JQuery',
+      description: 'fish 公司框架',
+      background: '#f8b37f',
+      icon: '',
+      link: ''
+    }],
+    superman: 'lol',
+  },
 };
 
 module.exports = config;
