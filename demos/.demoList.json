@@ -1,5 +1,9 @@
 [
   {
+    "label": "preview demo",
+    "src": "preview/demo"
+  },
+  {
     "group": "framework",
     "src": "framework",
     "demos": [

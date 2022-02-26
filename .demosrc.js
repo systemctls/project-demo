@@ -28,9 +28,10 @@ module.exports = {
   // monoindustrial,
   globalPackages: { // 配置需要加载的 JS、CSS 库
     js: [
-
+      'https://cdn.jsdelivr.net/gh/systemctls/learn_fish@3.33.0/js/fish-desktop-all.min.js'
+      // 'https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js'
     ],
-    css: [],
+    css: ['https://cdn.jsdelivr.net/gh/systemctls/learn_fish@3.33.0/css/fish-desktop-default.css'],
   },
   // tab waterfall
   editorViewMode: 'tab',  // 配置代码块的UI展示方式，现在支持tab和waterfall两种展示方式
