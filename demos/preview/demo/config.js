@@ -26,9 +26,11 @@ export default async () => {
     foldBoxes: ['html'],
     packages: {
       js: [
-       
+        'https://cdn.jsdelivr.net/gh/systemctls/learn_fish@3.33.0/js/fish-desktop-all.min.js',
+        'https://cdn.jsdelivr.net/gh/systemctls/learn_fish@3.33.0/js/fish-desktop-require.min.js'
+        // 'https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js'
       ],
-      css: [],
+      css: ['https://cdn.jsdelivr.net/gh/systemctls/learn_fish@3.33.0/css/fish-desktop-default.css'],
     }
   }
 }

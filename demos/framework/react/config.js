@@ -30,8 +30,10 @@ export default async () => {
     foldBoxes: ['html'],
     packages: {
       js: [
-        'https://unpkg.com/react@17/umd/react.development.js',
-        'https://unpkg.com/react-dom@17/umd/react-dom.development.js'
+        // 'https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.development.js',
+        // 'https://cdn.jsdelivr.net/npm/react-dom@17.0.2/umd/react-dom.development.js',
+        'https://unpkg.com/react@17.0.2/umd/react.development.js',
+        'https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js'
         // '//lib.baomitu.com/dat-gui/0.7.2/dat.gui.min.js',
         // '//lib.baomitu.com/babel-polyfill/7.0.0-beta.44/polyfill.min.js', // 加载Source 内容
       ],

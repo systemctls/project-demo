@@ -8,7 +8,7 @@ export default class extends Component {
       border: 'solid 1px #ccc',
       margin: '10px 0',
     };
-    let source = `//doodle.webgl.group/demo/#/${this.props.demoId}`;
+    let source = `//www.wccode.com/demo/#/${this.props.demoId}`;
     // if(window.location.hostname === '127.0.0.1' || 'localhost') {
     //   source = `//localhost:3030/#/${this.props.demoId}`;
     // }

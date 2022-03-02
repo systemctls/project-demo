@@ -25,7 +25,7 @@ export default async () => {
     foldBoxes: ['html'],
     packages: {
       js: [
-        'https://cdn.jsdelivr.net/npm/vue/dist/vue.js'
+        'https://unpkg.com/vue@2.6.14/dist/vue.js'
       ],
       css: [],
     }
