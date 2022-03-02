@@ -167,6 +167,7 @@ const config = {
     }],
     superman: 'lol',
   },
+  themes: ['@docusaurus/theme-live-codeblock'],
 };
 
 module.exports = config;
