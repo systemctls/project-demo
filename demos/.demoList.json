@@ -1,5 +1,15 @@
 [
   {
+    "group": "html demo",
+    "src": "HTML",
+    "demos":[
+      {
+        "label": "toggle-password",
+        "src": "toggle-password-visibility"
+      }
+    ]
+  },
+  {
     "label": "preview demo",
     "src": "preview/demo"
   },
