@@ -1,5 +1,6 @@
 [
   {
+    "label": "html demo",
     "group": "html demo",
     "src": "HTML",
     "demos":[
@@ -14,6 +15,7 @@
     "src": "preview/demo"
   },
   {
+    "label": "framework",
     "group": "framework",
     "src": "framework",
     "demos": [

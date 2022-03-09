@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.16.7",
-    "@demosify/core": "^0.7.6",
+    "wccode-demo": "^0.0.3",
     "@docusaurus/core": "^2.0.0-beta.17",
     "@docusaurus/preset-classic": "^2.0.0-beta.17",
     "@docusaurus/theme-live-codeblock": "^2.0.0-beta.17",
