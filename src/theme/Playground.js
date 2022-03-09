@@ -28,13 +28,13 @@ const PlaygroundHeaderDiv = styled.div`
 
 const PlaygroundPreviewDiv = styled.div`
   border: 1px solid var(--ifm-color-emphasis-300);
-  font-size: 12px;
+  font-size: 13px;
   padding: 1rem;
   position: relative;
 `
 
 const StyledLiveEditor = styled(LiveEditor)`
-  font-size: 12px;
+  font-size: 13px;
   font-family: var(--ifm-font-family-monospace) !important;
   border: 1px solid var(--ifm-color-emphasis-300);
   border-top: none;
